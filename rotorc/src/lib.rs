@@ -5,6 +5,7 @@ use swc_core::ecma::{
 };
 use swc_core::plugin::{plugin_transform, proxies::TransformPluginProgramMetadata};
 
+// 데코레이션, 클래스를 활용해서 banas에 맞게 변환
 pub struct TransformVisitor;
 
 impl VisitMut for TransformVisitor {
