@@ -27,6 +27,7 @@ for (const body of ast.body) {
       client = body.identifier.value
       //console.log(body.identifier.value) //client = App
     }
+    console.log(body)
     // methods body
     for (const func of body.body) {
       //console.log(func)
